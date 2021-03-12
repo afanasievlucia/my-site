@@ -1,94 +1,108 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    background-image: url(../images.css/image3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:rgb(124, 62, 62);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images.css/image3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(124, 62, 62);
+}
+h2:hover {
+  background-color: darksalmon;
+}
+.button {
+  background-color: darkslategrey;
+  border: none;
+  color: floralwhite;
+  padding: 10px 20px;
+  margin: 6px 2px;
+  display: inline;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
 }
 
 header {
-    color: rgb(124, 62, 62);
-    padding: 0;
-    text-align: center;
-    margin: 0;
+  color: rgb(124, 62, 62);
+  padding: 0;
+  text-align: center;
+  margin: 0;
 }
 
 #hello1 {
-    text-align: left;
-    color: rgb(88, 44, 44);
-    padding-left: 60px;
-    margin: none;
+  text-align: left;
+  color: rgb(88, 44, 44);
+  padding-left: 60px;
+  margin: none;
 }
 
 #hello2 {
-    padding: 10px;
+  padding: 10px;
 }
 
 .link a {
-    display: inline;
-    text-decoration: none;
-    color: rgb(124, 62, 62);
-    text-align: center;
-    font-size: 25px;
-    transition: 0.3s;
+  display: inline;
+  text-decoration: none;
+  color: rgb(124, 62, 62);
+  text-align: center;
+  font-size: 25px;
+  transition: 0.3s;
 }
 
 .link ul {
-    margin-right: 20px;
-    padding: 0;
+  margin-right: 20px;
+  padding: 0;
 }
 
 .link li {
-    display: inline;
-    padding:5px;
-    margin: 5px;
-    float: left;
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  float: left;
 }
 
 nav {
-    float: right;
+  float: right;
 }
 
 a:hover {
-    color: rgba(15, 48, 37, 0.692);
+  color: rgba(15, 48, 37, 0.692);
 }
 
 #home:hover {
-    background-color:rgb(118, 128, 124);
-    color: white;
+  background-color: rgb(118, 128, 124);
+  color: white;
 }
 
 .container1 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container1 span {
-    display: block;
+  display: block;
 }
 
-#title{
-    text-align: center;
+#title {
+  text-align: center;
 }
 .aboutme {
-    padding-top: 100px;
-    text-align: left;
+  padding-top: 100px;
+  text-align: left;
 }
 
 #foto {
-    max-width: 25em;
-    border-radius: 50px;
-    margin: 100px;
+  max-width: 25em;
+  border-radius: 50px;
+  margin: 100px;
 }
 
 footer {
-    font-size: 15px;
-    text-align: center;
+  font-size: 15px;
+  text-align: center;
 }
